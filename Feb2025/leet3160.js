@@ -1,5 +1,4 @@
 // 3160. Find the Number of Distinct Colors Among the Balls
-
 /**
  * @param {number} limit
  * @param {number[][]} queries
