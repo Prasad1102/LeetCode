@@ -1,4 +1,5 @@
 // 2349. Design a Number Container System
+
 class NumberContainers {
   public void change(int index, int number) {
     if (indexToNumbers.containsKey(index)) {
