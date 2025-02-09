@@ -8,7 +8,6 @@ class Solution {
 
     for (int i = 0; i < nums.size(); ++i)
       ans += i - count[nums[i] - i]++;
-
     return ans;
   }
 };
