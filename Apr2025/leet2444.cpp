@@ -15,7 +15,6 @@ class Solution {
          prevMaxKIndex = i;
        ans += max(0, min(prevMinKIndex, prevMaxKIndex) - j);
      }
- 
      return ans;
    }
  };
