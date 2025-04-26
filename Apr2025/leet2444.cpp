@@ -6,7 +6,6 @@ class Solution {
      int j = -1;
      int prevMinKIndex = -1;
      int prevMaxKIndex = -1;
- 
      for (int i = 0; i < nums.size(); ++i) {
        if (nums[i] < minK || nums[i] > maxK)
          j = i;
